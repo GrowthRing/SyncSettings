@@ -1,16 +1,6 @@
 {
-  /**
-    * This token allow to plugin do:
-    * - Create a Gist
-    * - Download a Gist
-    * - Upload a Gist
-    * - Delete a Gist
-   */
-  "access_token": "",
-
-  /**
-    * This option has a list with the excluded files
-   */
+  "access_token": null,
+  "auto_upgrade": false,
   "excluded_files": [
     ".dmg",
     ".DS_Store",
@@ -28,20 +18,10 @@
     "Package Control.user-ca-bundle",
     "Thumbs.db"
   ],
-
-  /**
-   * Files that always should be included
-   * Note: The files included here, overwrite the rule `excluded_files`
-   */
+  "gist_id": null,
   "included_files": [],
-
-  /**
-   * Gist identifier for upload your configuration
-   */
-  "gist_id": "",
-
-  /**
-   * Download automagically the new version on ST startup
-   */
-  "auto_upgrade": false
+  "proxies": {
+    "http": null,
+    "https": null
+  }
 }

@@ -1,13 +1,7 @@
-import sublime, os
-from sublime_plugin import WindowCommand
-from ..libs.logger import Logger
-from ..libs.utils import Utils
+import sublime_plugin
+from ..libs import logger
 
-class SyncSettingsOpenLogsCommand(WindowCommand):
-  def run(self):
-    path = Logger.get_path()
 
-    if not Utils.exists_path(path):
-      Utils.create_empty_file(Logger.get_path())
-
-    self.window.open_file(path)
+class SyncSettingsOpenLogsCommand(sublime_plugin.WindowCommand):
+    def run(self):
+        self.window.open_file(logger.logger_path)

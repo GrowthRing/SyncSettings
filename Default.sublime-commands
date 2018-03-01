@@ -18,7 +18,9 @@
   {
     "caption": "Sync Settings: Delete",
     "command": "sync_settings_delete_and_create",
-    "args": {"create": false}
+    "args": {
+      "create": false
+    }
   },
   {
     "caption": "Sync Settings: Show Logs",
@@ -27,6 +29,8 @@
   {
     "caption": "Sync Settings: Edit User Settings",
     "command": "open_file",
-    "args": {"file": "${packages}/User/SyncSettings.sublime-settings"}
+    "args": {
+      "file": "${packages}/User/SyncSettings.sublime-settings"
+    }
   }
 ]

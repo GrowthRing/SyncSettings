@@ -1,5 +1,4 @@
-Sync Settings
-===============
+## Sync Settings
 
 [![SyncSettings](https://img.shields.io/packagecontrol/dt/Sync%20Settings.svg?maxAge=2592000)](https://packagecontrol.io/packages/Sync%20Settings)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://raw.githubusercontent.com/mfuentesg/SyncSettings/master/LICENSE.md)
@@ -7,16 +6,8 @@ Sync Settings
 [![Build Status](https://travis-ci.org/mfuentesg/SyncSettings.svg?branch=master)](https://travis-ci.org/mfuentesg/SyncSettings)
 
 
-**Sync Settings**, is a cross-platform solution to keep the [Sublime Text](http://sublimetext.com/) configuration updated.
-
-## How it works?
-
-**Sync Settings** uses Github-Gist allowing you to use all features that this service provides.
-
-## Support
-
-* Working on Windows, Linux and OSX
-* Working on [Sublime Text 2](http://sublimetext.com/2), [Sublime Text 3](http://sublimetext.com/3)
+_Sync Settings_ it's a cross platform solution, which keeps your ST settings synced between your hosts.
+_Sync Settings_ makes use of [Gist](https://gist.github.com), to follow each change applied in your settings.
 
 ## Installation:
 
